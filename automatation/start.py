@@ -11,8 +11,8 @@ driver.get("https://www.facebook.com/")
 email_input = driver.find_element_by_css_selector("#email")
 password_input = driver.find_element_by_css_selector("#pass")
 # some_text = elem.text
-email_input.send_keys("alicja.cechel@gmail.com")
-password_input.send_keys("aalicjaa241993r..")
+email_input.send_keys("a@abc.pl")
+password_input.send_keys("abc")
 
 # print(some_text)
 driver.find_element_by_css_selector('[data-testid=royal_login_button]').click()
